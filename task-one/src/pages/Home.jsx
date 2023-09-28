@@ -9,6 +9,7 @@ const Home = () => {
             <HeroSection />
             <div className="h-16 bg-[#F4F6F8]"></div>
             <Features />
+            <div className="h-16 bg-[#F4F6F8]"></div>
         </>
     );
 };

@@ -12,6 +12,7 @@ export default {
                 primaryLogo: "#100A42",
                 grayText: "#000000bf",
                 primary: "#120B48",
+                primary400: "#413c6d",
                 headings: "#141414",
                 purpleHeadings: "#1B233D",
             },

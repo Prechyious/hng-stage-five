@@ -7,7 +7,7 @@ import greyDots from "../assets/images/greyDots.png";
 
 const HeroSection = () => {
     return (
-        <section className="flex relative items-center justify-center gap-6 px-24 h-[100dvh]">
+        <section className="flex relative items-center justify-center gap-6 px-24 h-[95dvh]">
             <div>
                 <h1 className="text-[4rem] leading-[4rem] text-headings font-bold font-sora mb-5 max-w-[29.5rem]">
                     Show Them Don't Just Tell
@@ -20,8 +20,8 @@ const HeroSection = () => {
                     to="/"
                     className="px-5 py-6 bg-primary rounded-lg text-white font-workSans font-medium text-lg"
                 >
-                    install helpMeOut
-                    <span className="ml-2 font-bold">&rarr;</span>
+                    install HelpMeOut
+                    <span className="ml-3 font-bold">&rarr;</span>
                 </Link>
             </div>
             <div className="grid grid-cols-2 gap-4">

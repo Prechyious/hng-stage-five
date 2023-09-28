@@ -16,7 +16,10 @@ const Nav = () => {
                 <NavLink>How It Works</NavLink>
             </div>
 
-            <Link to="" className="font-sora font-bold text-lg text-primary">
+            <Link
+                to="/signup"
+                className="font-sora font-bold text-lg text-primary"
+            >
                 Get Started
             </Link>
         </nav>

@@ -28,7 +28,7 @@ const HowItWorks = () => {
                 How It Works
             </h2>
 
-            <div className="grid grid-cols-3 gap-20 place-items-center">
+            <div className="grid grid-cols-3 gap-20 place-items-center min-h-full">
                 {howItWorks.map(({ id, title, desc, imgSrc }) => {
                     return (
                         <div
@@ -45,7 +45,7 @@ const HowItWorks = () => {
                                 <h3 className="font-inter text-[1.75rem] font-semibold text-purpleHeadings">
                                     {title}
                                 </h3>
-                                <p className="font-workSans text-xl font-normal text-[#616163] leading-7">
+                                <p className="font-workSans text-xl font-normal text-[#616163] min-w-[22.375rem]">
                                     {desc}
                                 </p>
                             </div>
